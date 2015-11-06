@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="toolbarStyle">@style/AppThemeToolbar</item>
+    </style>
+
+    <style name="AppThemeToolbar" parent="Widget.AppCompat.Toolbar" >
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <style name="customTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:windowBackground">@drawable/splash_screen</item>-->
+    </style>
+    <!-- Base application theme. -->
+    <style name="splashScreenTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="Colorbar2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/sky_blue</item>
+        <!--<item name="android:background">@color/tab_col</item>-->
+        <!--GGK1-->
+        <item name="android:displayOptions"></item>
+        <item name="android:height">50dp</item>
+
+    </style>
+
+</resources>

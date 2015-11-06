@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ChaperOne</string>
+    <string name="title_activity_splash">Splash Screen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_in">Log In</string>
+    <string name="Log_out">Log Out</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">9444664566</string>
+    <string name="otp">05264</string>
+    <string name="old_pwd">Old Password</string>
+    <string name="new_pwd">New Password</string>
+    <string name="confirm_pwd">ConfirmPassword</string>
+    <string name="cc_firstname">First Name</string>
+    <string name="cc_lastname">Last Name</string>
+    <string name="cc_required">Required</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="first_child">1st</string>
+    <string name="second_child">2nd</string>
+    <string name="third_child">3rd</string>
+    <string name="fourth_child">4th</string>
+    <string name="fifth_child">5th</string>
+    <string name="sixth_child">6th</string>
+    <string name="seventh_child">7th</string>
+    <string name="eighth_child">8th</string>
+    <string name="ninth_child">9th</string>
+    <string name="whichseat">Car seat/booster seat required</string>
+    <string name="sametime">Same time all week</string>
+    <string name="internet_not_connected">Not connected to internet</string>
+    <string name="create_acc">Create Account</string>
+    <string name="press_back_again_to_exit">Press back again to Exit</string>
+    <string name="emptyseats">Empty seats in your car during school commutes</string>
+    <string name="egemptyseats">(e.g. if you have total of 5 seats in your car, and you will be riding with 1 of your child, you will have 3 empty seats)</string>
+    <string name="reqlicense">Required for insurance purpose</string>
+    <string name="terms">I understand and agree the terms</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="next_in">Next</string>
+    <string name="brief_bio">e.g.\nHi Everyone!\nI work from home as marketing constant.Active in the community and speed time volunteering ride foester children.Hope to meet you on a ride soon.</string>
+    <array name="icons">
+        <item>@drawable/profile</item>
+        <item>@drawable/community</item>
+        <item>@drawable/message</item>
+        <item>@drawable/ride_tokens</item>
+        <item>@drawable/calendar</item>
+        <item>@drawable/settings</item>
+        <item>@drawable/faq</item>
+        <item>@drawable/help</item>
+    </array>
+    <array name="settingicons">
+        <item>@drawable/password</item>
+        <item>@drawable/edit_card</item>
+        <item>@drawable/logout</item>
+    </array>
+    <array name="users">
+        <item>@drawable/pic_1</item>
+        <item>@drawable/pic_2</item>
+        <item>@drawable/pic_3</item>
+        <item>@drawable/pic_4</item>
+        <item>@drawable/pic_5</item>
+        <item>@drawable/pic_6</item>
+        <item>@drawable/pic_8</item>
+        <item>@drawable/pic_9</item>
+        <item>@drawable/pic_10</item>
+        <item>@drawable/pic_11</item>
+    </array>
+</resources>

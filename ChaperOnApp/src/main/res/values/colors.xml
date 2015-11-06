@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="no_projects_color" >#B3B3B3</color>
+    <color name="chaper_blue" >#629CD3</color>
+    <color name="chaper_btn_blue" >#629CD3</color>
+    <color name="edittxt_bg" >#B9D3E9</color>
+    <color name="edittxt_bg_white" >#FFFFFF</color>
+    <color name="edittxt_hint" >#87B4D9</color>
+    <color name="cbox_label">#518DB6</color>
+    <color name="cc_tv_color">#3D6883</color>
+    <color name="edittxt_txt" >#607382</color>
+    <color name="transparent_light">#80ffffff</color>
+    <color name="custom_actionbar_bg">#155D8B</color>
+    <color name="custom_actionbar_setting">#ffc000</color>
+    <color name="custom_actionbar_profile">#FF0062</color>
+    <color name="custom_pactionbar_bg">#105787</color>
+    <color name="register_page_bg">#c1dbed</color>
+    <color name="changepwd_page_bg">#c1dbed</color>
+    <color name="dark_blue">#155D8B</color>
+    <color name="sky_blue">#1FAEE5</color>
+    <color name="grey_light">#EEEEEE</color>
+    <color name="white">#ffffff</color>
+    <color name="demo_blue">#009CE2</color>
+    <color name="black">#000000</color>
+    <color name="setting_item_color">#165B8C</color>
+    <color name="action_divider">#103057</color>
+</resources>
