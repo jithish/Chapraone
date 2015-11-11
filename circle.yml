@@ -1,13 +1,11 @@
-
-
-  #
+            #
 
             # Build configuration for Circle CI
             #
 
             general:
                 artifacts:
-                    - /home/ubuntu/ChapraApp/app/build/outputs/apk/test.apk
+                    - /home/ubuntu/Chapraone/app/build/outputs/apk/test.apk
 
             machine:
                 environment:
@@ -31,9 +29,9 @@
                 # run tests  against the emulator.
                 - ./gradlew connectedAndroidTest
                 # copy the build outputs to artifacts
-                - cp -r /home/ubuntu/ChapraApp/app/build/outputs/ $CIRCLE_ARTIFACTS
+                - cp -r /home/ubuntu/Chapraone/app/build/outputs/ $CIRCLE_ARTIFACTS
                 # copy the test results to the test results directory.
-                - cp -r /home/ubuntu/ChapraApp/app/build/outputs/androidTest-results/* $CIRCLE_TEST_REPORT
+                - cp -r /home/ubuntu/Chapraone/app/build/outputs/androidTest-results/* $CIRCLE_TEST_REPORT
 
 
 
