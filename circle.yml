@@ -5,7 +5,7 @@
 
             general:
                 artifacts:
-                    - /home/ubuntu/Chapraone/app/build/outputs/apk/test.apk
+                    - /home/ubuntu/Chapraone/app/build/outputs/apk/
 
             machine:
                 environment:
