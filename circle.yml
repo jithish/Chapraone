@@ -31,7 +31,7 @@
                 # copy the build outputs to artifacts
                 - cp -r /home/ubuntu/Chapraone/app/build/outputs/ $CIRCLE_ARTIFACTS
                 # copy the test results to the test results directory.
-                - cp -r /home/ubuntu/Chapraone/app/build/outputs/androidTest-results/* $CIRCLE_TEST_REPORT
+                - cp -r /home/ubuntu/Chapraone/app/build/outputs/androidTest-results/* $CIRCLE_TEST_REPORTS
 
 
 
