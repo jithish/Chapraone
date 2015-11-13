@@ -1,15 +1,26 @@
 package com.ceino.chaperonandroid;
 
 import android.support.test.rule.ActivityTestRule;
+import android.support.test.runner.AndroidJUnit4;
 import android.test.ActivityInstrumentationTestCase2;
+import android.test.suitebuilder.annotation.LargeTest;
+
+import com.ceino.chaperonandroid.activities.SplashActivity2;
 
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
 /**
  * Created by jp on 12/11/15.
  */
+@RunWith(AndroidJUnit4.class)
+@LargeTest
 public class SampleInstrumentTest {
     /**
      * A JUnit {@link Rule @Rule} to launch your activity under test. This is a replacement
@@ -23,17 +34,17 @@ public class SampleInstrumentTest {
      * the {@link ActivityTestRule#getActivity()} method.
      */
     @Rule
-    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(
-            MainActivity.class);
+    public ActivityTestRule<SplashActivity2> mActivityRule = new ActivityTestRule<>(
+            SplashActivity2.class);
 
     @Test
     public void noOperandShowsComputationError() {
-        final String expectedResult = mActivityRule.getActivity().getString(R.string.app_name);
-       // onView(withId(R.id.frame_layout)).perform(click());
-       //onView(withId(R.id.operation_result_text_view)).check(matches(withText(expectedResult)));
+        final String expectedResult = mActivityRule.getActivity().getString(R.string.computationError);
+        onView(withId(R.id.container)).perform(click());
+        //onView(withId(R.id.operation_result_text_view)).check(matches(withText(expectedResult)));
     }
 
- /*   @Test
+   /* @Test
     public void typeOperandsAndPerformAddOperation() {
         performOperation(R.id.operation_add_btn, "16.0", "16.0", "32.0");
     }
@@ -72,7 +83,7 @@ public class SampleInstrumentTest {
         onView(withId(btnOperationResId)).perform(click());
 
         // Check the expected test is displayed in the Ui
-        onView(withId(R.id.operation_result_text_view)).check(matches(withText(expectedResult)));
+        //  onView(withId(R.id.operation_result_text_view)).check(matches(withText(expectedResult)));
     }*/
 
 }

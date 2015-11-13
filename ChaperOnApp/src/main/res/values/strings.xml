@@ -41,6 +41,15 @@
     <string name="lname">Last Name</string>
     <string name="next_in">Next</string>
     <string name="brief_bio">e.g.\nHi Everyone!\nI work from home as marketing constant.Active in the community and speed time volunteering ride foester children.Hope to meet you on a ride soon.</string>
+
+    <string name="type_operand_one_hint">Type Operand 1</string>
+    <string name="type_operant_two_hint">Type Operand 2</string>
+    <string name="add_operation_text">Add</string>
+    <string name="sub_operation_text">Sub</string>
+    <string name="div_operation_text">Div</string>
+    <string name="mul_operation_text">Mul</string>
+    <string name="computationError">Error</string>
+
     <array name="icons">
         <item>@drawable/profile</item>
         <item>@drawable/community</item>

@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 'Google Inc.:Google APIs:22'
     buildToolsVersion "22.0.1"
     packagingOptions {
         exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'LICENSE.txt'
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -15,6 +15,7 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -76,9 +77,14 @@ dependencies {
 
     // Testing-only dependencies
     // Force usage of support annotations in the test app, since it is internally used by the runner module.
+   // androidTestCompile 'com.squareup.javawriter:2.1.1'
     androidTestCompile 'com.android.support:support-annotations:23.0.1'
     androidTestCompile 'com.android.support.test:runner:0.4.1'
     androidTestCompile 'com.android.support.test:rules:0.4.1'
+    androidTestCompile ('com.android.support.test.espresso:espresso-core:2.2.1')
+            {
+                exclude group: 'com.squareup', module: 'javawriter'
+            }
     // Set this dependency if you want to use Hamcrest matching
   //  androidTestCompile 'org.hamcrest:hamcrest-library:1.1'
       /*  androidTestCompile 'com.android.support.test:runner:0.4'
