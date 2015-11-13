@@ -1,5 +1,4 @@
             #
-
             # Build configuration for Circle CI
             #
 
@@ -16,9 +15,9 @@
                     - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
 
             test:
-                override:
-                    - (./gradlew assemble):
-                        timeout: 360
+               override:
+                   - (./gradlew assemble):
+                      timeout: 360
             test:
               override:
                 # start the emulator
@@ -37,6 +36,7 @@
                 - cp -r /home/ubuntu/Chapraone/app/build/outputs/ $CIRCLE_ARTIFACTS
                 # copy the test results to the test results directory.
                 - cp -r /home/ubuntu/Chapraone/app/build/outputs/androidTest-results/ $CIRCLE_TEST_REPORTS
+                - cp --help
 
 
 
